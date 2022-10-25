@@ -1,0 +1,60 @@
+<html>
+<head>
+     <title>AFTER_PREDICTION</title>
+    <style>
+        body {
+    /* background:linear-gradient(120deg,#099a6a,#8e44ad); */
+    background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+  }
+#center {
+    width: 400px;
+    margin-top: 261px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 526px;
+    padding: 11px;
+    border-style: solid;
+    border-color: #B6C7D6;
+    border-radius: 20px;
+    background-color: #699a6f;
+    opacity: 0.9;
+    }
+ .gav{
+  text-align: center;
+ }
+ a{
+  text:bold;
+  }
+    </style>
+
+</head>
+<body>
+<div id="center">
+     <h1 class="gav">______PREDICTION______</h1>
+    {%if data == 0%}
+    <h2 style="text-align:center">Iris-setosa</h2>
+
+    {%else%}
+    <h2 style="text-align:center">Iris-versicolor</h2>
+    {%endif%}
+    <a href='/'>go back to home page</a>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
